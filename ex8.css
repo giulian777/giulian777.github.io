@@ -1,0 +1,12 @@
+/* ex8.css */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+    background-color: gray;
+  }
+h1 {
+    color: red;
+}
