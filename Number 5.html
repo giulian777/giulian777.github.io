@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Assignment9CSS.css">
+<title>Music Survey</title>
+</head>
+<body>
+
+<h1>Music Survey</h1>
+<p>
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+</form> 
+
+<p>
+
+<form action="/action_page.php">
+  E-mail:<br>
+  <input type="email" name="email" required="required">
+  <br>
+</form>
+
+<p>
+ <fieldset>      
+        <legend>What is Your Favorite Types of Music?</legend>      
+        <input type="checkbox" name="Genre" value="Pop">Pop<br>      
+        <input type="checkbox" name="Genre" value="Classical">Classical<br>      
+        <input type="checkbox" name="Genre" value="Rock">Rock<br> 
+        <input type="checkbox" name="Genre" value="Folk">Folk<br>      
+        <input type="checkbox" name="Genre" value="Rap">Rap<br>      
+        <input type="checkbox" name="Genre" value="Other">Other<br>   
+        <br>          
+    </fieldset>   
+
+<p>
+
+<fieldset>
+	<legend> Select how often you purchase Music CD's:</legend>
+  <input type="radio" name="Time" value="Weekly"> Weekly<br>
+  <input type="radio" name="Time" value="A few CD's each year" checked> A few CD's each year<br>
+  <input type="radio" name="Time" value="Monthly"> Monthly<br>
+  <input type="radio" name="Time" value="Never Purchase"> Never Purchase
+</form> 
+
+<p>
+Select the locations you listen to Music:
+<form action="/action_page.php">
+  <input list="locations" name="locations">
+  <datalist id="locations">
+    <option value="Car">
+    <option value="Home">
+    <option value="Work">
+    <option value="School">
+    <option value="Gym">
+  </datalist>
+</form>
+<p>
+What role does music play in your life?</p>
+<textarea cols="60" rows="3">
+</textarea>
+<p> <input type="submit">
+<input type="Reset"> </p>
+<p>
+Giulian Racu
+</p>
+
+<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">racugiulian@yahoo.com</a>
+</body>
+</html>
